@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Таблиця з фіксованими заголовком і стовпцем</title>
+  <style>
+    thead {
+      position: sticky;
+      top: 0;
+      background-color: #f0f0f0;
+    }
+    
+    td:first-child {
+      position: sticky;
+      left: 0;
+      background-color: #f0f0f0;
+    }
+    
+    /* Стіл таблиці */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Стовпець 1</th>
+        <th>Стовпець 2</th>
+        <th>Стовпець 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Клітинка 1</td>
+        <td>Клітинка 2</td>
+        <td>Клітинка 3</td>
+      </tr>
+      <tr>
+        <td>Клітинка 4</td>
+        <td>Клітинка 5</td>
+        <td>Клітинка 6</td>
+      </tr>
+      <!-- Додайте більше рядків до таблиці -->
+    </tbody>
+  </table>
+</body>
+</html>
